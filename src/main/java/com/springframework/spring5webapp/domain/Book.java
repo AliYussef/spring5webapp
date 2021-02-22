@@ -80,12 +80,10 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 
     // override equals and hashCode to be able to distinguish equality based on id only
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
